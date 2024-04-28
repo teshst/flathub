@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.teshst.Stardrop</id>
+
+  <name>Stardrop</name>
+  <summary>Stardrop Community Maintained Flatpak</summary>
+
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+
+  <description>
+    <p>
+      This a community maintained flatpak of Stardrop, a mod manager for Stardew Valley. This Flatpak is not officially supported by the Stardrop developers.
+    </p>
+    <p>
+      Please direct all issues and questions to project website linked below to avoid raising false positive issues with the Stardrop developers.
+    </p>
+    <p>
+      Stardrop is an open-source, cross-platform mod manager for the game Stardew Valley. It is built using the Avalonia UI framework.
+    </p>
+    <p>
+      Stardrop utilizes SMAPI (Stardew Modding API) to simplify the management and update checking for all applicable Stardew Valley mods. Stardrop is also non-destructive due to how it integrates with SMAPI, meaning it can be uninstalled without any impact on SMAPI, Stardew Valley or the user&amp;amp;apos;s original mod folder. Profiles are also supported, allowing users to have multiple mod groups for specific gameplay or multiplayer sessions. Stardrop also supports the Nexus Mods API, which allows for features such as endorsing mods directly from Stardrop. Other features, such as downloading mod updates via Stardrop are available to premium Nexus Mods users.
+    </p>
+  </description>
+  <content_rating type="oars-1.1" />
+  <launchable type="desktop-id">io.github.teshst.Stardrop.desktop</launchable>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://imgur.com/WdjwfnG.gif</image>
+    </screenshot>
+    <screenshot>
+      <image>https://imgur.com/kalsOjS.gif</image>
+    </screenshot>
+  </screenshots>
+
+  <developer_name>TeshST</developer_name>
+  <developer id="io.github.teshst">
+    <url>https://github.com/teshst/</url>
+    <name>TeshST</name>
+  </developer>
+  <developer id="io.gitbook.floogen">
+    <url>https://github.com/Floogen/</url>
+    <name>Floogen</name>
+  </developer>
+
+  <releases>
+    <release version="-stardrop-1.2.0" date="2024-04-24">
+      <description>
+        <p>1.2.0 release of Stardrop</p>
+      </description>
+    </release>
+  </releases>
+
+  <url type="homepage">https://github.com/teshst/Stardrop</url>
+</component>

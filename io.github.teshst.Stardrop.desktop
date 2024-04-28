@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+
+Name=Stardrop
+Comment=A mod manager for Stardew Valley from Stardrop 
+Categories=Utility;
+
+Icon=io.github.teshst.Stardrop
+Exec=Stardrop
+Terminal=false
